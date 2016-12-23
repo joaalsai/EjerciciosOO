@@ -1,7 +1,13 @@
 package ejercicio1;
 
 public class Persona {
+	
 	private final static char DEFAULT_SEX = 'H';
+	
+	private final static int SOBREPESO = 1;
+	private final static int INFRAPESO = -1;
+	private final static int PESOIDEAL = 0;
+	
 	private String nombre;
 	private int edad;
 	private int DNI;
@@ -38,6 +44,28 @@ public class Persona {
 		this.sexo	= comprobarSexo(sexo.charAt(0));
 		this.peso	= peso;
 		this.altura	= altura;
+	}
+	
+	public int calcularIMC(){
+		float imc = this.peso/(int)Math.pow(this.altura/100,2);
+		if (imc>=25) return SOBREPESO;
+		else if (imc<18.5) return INFRAPESO;
+		else return PESOIDEAL;
+	}
+	
+	public boolean esMayorDeEdad(){
+		return (this.edad>=18) ? true : false ;
+	}
+	
+	public String toString(){
+		
+		return 	"Los datos de la persona son:\n" +
+				"Nombre: " + this.nombre + "\n" +
+				"Edad: " + this.edad + "\n" +
+				"DNI : " + this.DNI + "-" + this.letraDNI + "\n" +
+				"Sexo: " + ( (this.sexo=='H') ? "Hombre":"Mujer" ) + "\n" +
+				"Peso: " + this.peso + "\n" +
+				"Altura: " + this.altura + "\n";
 	}
 	
 	private char comprobarSexo(char sexo){
