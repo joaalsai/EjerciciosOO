@@ -49,7 +49,7 @@ public class Persona {
 		return (int)(Math.random()*100000000);
 	}
 	
-	private char generaLetraDNI();{
+	private char generaLetraDNI(){
 		String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
 		return letras.charAt(this.DNI%23);
 	}
