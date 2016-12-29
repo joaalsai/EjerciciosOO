@@ -12,10 +12,11 @@ public class Ejercicio3 {
 		boolean salir = false;
 
 		do {
+			borrarPantalla();
 			mostrarMenuPrincipal();
 			opcion = entrada.obtenerEntero("Elija una opcion (1-6)");
-			if (opcion > 5 || opcion < 0) {
-				System.out.println("Opcion no valida!!!. \nDebe elegir una opcion entre 1 y 6");
+			if (opcion > 8 || opcion < 0) {
+				System.out.println("Opcion no valida!!!. \nDebe elegir una opcion entre 1 y 8.\n0 para salir");
 				entrada.obtenerString("Pulse [Intro] para continuar");
 			} else {
 				switch (opcion) {
