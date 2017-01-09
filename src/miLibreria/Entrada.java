@@ -1,4 +1,4 @@
-package ejercicio1;
+package miLibreria;
 
 import java.util.Scanner;
 

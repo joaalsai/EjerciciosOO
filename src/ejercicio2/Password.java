@@ -13,6 +13,10 @@ public class Password {
 		this.longitud = DEFAULT_LONG;
 		this.contraseña = generarPassword();
 	}
+	public Password(int longitud) {
+		this.longitud = longitud;
+		this.contraseña = generarPassword();
+	}
 
 	public void setLongitud(int longitud) {
 

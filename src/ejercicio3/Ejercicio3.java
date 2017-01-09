@@ -1,6 +1,6 @@
 package ejercicio3;
 
-import ejercicio1.Entrada;
+import miLibreria.Entrada;
 
 public class Ejercicio3 {
 

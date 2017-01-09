@@ -1,5 +1,7 @@
 package ejercicio1;
 
+import miLibreria.Entrada;
+
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
