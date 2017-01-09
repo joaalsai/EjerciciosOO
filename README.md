@@ -1,10 +1,9 @@
 # EjerciciosOO
-Ejercicios de JAVA de la unidad de Orientado a Objetos, resueltos en clase.
-1) Haz una clase llamada Persona que siga las siguientes condiciones:
-
--Sus atributos son: nombre, edad, DNI, sexo (H hombre, M mujer), peso y altura. No queremos que se accedan directamente a ellos. Piensa que modificador de acceso es el más adecuado, también su tipo. Si quieres añadir algún atributo puedes hacerlo.
--Por defecto, todos los atributos menos el DNI serán valores por defecto según su tipo (0 números, cadena vacía para String, etc.). Sexo sera hombre por defecto, usa una constante para ello.
--Se implantaran varios constructores:
+Ejercicios de JAVA de la unidad de Orientado a Objetos, resueltos en clase.  
+1.Haz una clase llamada Persona que siga las siguientes condiciones:  
+* Sus atributos son: nombre, edad, DNI, sexo (H hombre, M mujer), peso y altura. No queremos que se accedan directamente a ellos. Piensa que modificador de acceso es el más adecuado, también su tipo. Si quieres añadir algún atributo puedes hacerlo.
+* Por defecto, todos los atributos menos el DNI serán valores por defecto según su tipo (0 números, cadena vacía para String, etc.). Sexo sera hombre por defecto, usa una constante para ello.
+* Se implantaran varios constructores:  
 	Un constructor por defecto.
 	Un constructor con el nombre, edad y sexo, el resto por defecto.
 	Un constructor con todos los atributos como parámetro.
@@ -26,7 +25,7 @@ Para cada objeto, deberá comprobar si esta en su peso ideal, tiene sobrepeso o 
 Indicar para cada objeto si es mayor de edad.
 Por último, mostrar la información de cada objeto.
 
-2) Haz una clase llamada Password que siga las siguientes condiciones:
+2. Haz una clase llamada Password que siga las siguientes condiciones:
 
 -Que tenga los atributos longitud y contraseña . Por defecto, la longitud sera de 10 (crea una constante estatica que almacene la longitud por defecto).
 
