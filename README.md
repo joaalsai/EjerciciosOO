@@ -6,8 +6,8 @@ Ejercicios de JAVA de la unidad de Orientado a Objetos, resueltos en clase.  
 * Se implantaran varios constructores:  
 	Un constructor por defecto.  
 	Un constructor con el nombre, edad y sexo, el resto por defecto.  
-	Un constructor con todos los atributos como parámetro.  
-Los métodos que se implementaran son: 	
+	Un constructor con todos los atributos como parámetro.  
+* Los métodos que se implementaran son: 	
  	calcularIMC(): calculara si la persona esta en su peso ideal (peso en kg/(altura^2  en m)), devuelve un -1 si esta por debajo de su peso ideal, un 0 si esta en su peso ideal y un 1 si tiene sobrepeso .Te recomiendo que uses constantes para devolver estos valores.  		
 		Bajo peso (IMC <18,5) 		
  		Rango normal (IMC = 18,5-24,99) 		
