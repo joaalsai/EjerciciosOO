@@ -18,7 +18,7 @@
         toString(): devuelve toda la información del objeto. 	
         generaDNI(): genera un numero aleatorio de 8 cifras, genera a partir de este su número su letra correspondiente. Este método sera invocado cuando se construya el objeto. Puedes dividir el método para que te sea más fácil. No será visible al exterior. 	
         Métodos set de cada parámetro, excepto de DNI.  
-* Ahora, crea una clase ejecutable que haga lo siguiente:
+ Ahora, crea una clase ejecutable que haga lo siguiente:
 
     * Pide por teclado el nombre, la edad, sexo, peso y altura.  
     * Crea 3 objetos de la clase anterior, el primer objeto obtendrá las anteriores variables pedidas por teclado, el segundo objeto obtendrá todos los anteriores menos el peso y la altura y el último por defecto, para este último utiliza los métodos set para darle a los atributos un valor.  
