@@ -29,7 +29,7 @@
 
 2. Haz una clase llamada Password que siga las siguientes condiciones:
 
--Que tenga los atributos longitud y contraseña . Por defecto, la longitud sera de 10 (crea una constante estatica que almacene la longitud por defecto).
+* Que tenga los atributos longitud y contraseña . Por defecto, la longitud sera de 10 (crea una constante estatica que almacene la longitud por defecto).
 
 Los constructores serán los siguiente:
 * Un constructor por defecto que genere una contraseña de longitud por defecto. La contraseña fuerte viene definida en el metodo esFuerte().  
